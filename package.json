@@ -1,0 +1,15 @@
+{
+  "name": "doc-web-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
